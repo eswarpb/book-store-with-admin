@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 import Cart from './pages/Cart'
 import Login from './pages/Login'
 import PlaceOrder from './pages/PlaceOrder'
-import Orders from './pages/orders'
+import Orders from './pages/Orders'
 import Verify from './pages/Verify'
 
 
