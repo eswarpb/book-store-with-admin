@@ -1,7 +1,6 @@
 Bestore with admin access
 MERN Stack Bestore Book Store Website MongoDB, Express, React, Node.js and Tailwind CSS with Stripe & COD payment complete CRUD App with ADMIN panel.
 
-
 Description
 
 📚 Book Store with Admin App – Overview
@@ -28,15 +27,15 @@ Backend: Node.js with Express.js and MongoDB
 
 Libraries Used:
 Library Name	Description
-React Js	Frontend Framework
-React Router	Routing library
-Axios	HTTP client for making API requests
-headlessui/react	Accessible React components
-cloudinary        easily upload images
-mongoDB          database store and retrieve data
-React Icons	Icon library for React
-stripe-react      Stripe paymnet gateway
-Tailwind CSS	Utility-first CSS framework
+React Js	-Frontend Framework
+React Router	-Routing library
+Axios        -	HTTP client for making API requests
+headlessui/react	- Accessible React components
+cloudinary       - easily upload images
+mongoDB         - database store and retrieve data
+React Icons  	-    Icon library for React
+stripe-react  -      Stripe paymnet gateway
+Tailwind CSS  -	Utility-first CSS framework
 
 
 
