@@ -50,6 +50,7 @@ const List = ({token}) => {
           <h5>Name</h5>
           <h5>Category
           </h5>
+          <h5>Price</h5>
           <h5>
             Remove
           </h5>
