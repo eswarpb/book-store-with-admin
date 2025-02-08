@@ -8,16 +8,16 @@ const Navbar = ({containerStyles,toggleMenu,menuOpened}) => {
     const navItems = [
         { to: '/', label: "Home", icon: <TbHomeFilled /> },
         { to: '/shop', label: "Shop", icon: <IoLibrary /> },
-        { to: 'mailto:eswarprabhastrt@,com', label: "Contact", icon: <IoMailOpen /> }, // Fixed label
+        { to: 'mailto:eswarprabhastrt@gmail,com', label: "Contact", icon: <IoMailOpen /> }, // Fixed label
     ];
 
     return (
         <nav className={containerStyles}>
             {menuOpened && (
                 <>
-                <FaRegWindowClose onclick={toggleMenu} className='text-xl self-end cursor-pointer relative left-8'/>
+                <FaRegWindowClose onClick={toggleMenu} className='text-xl self-end cursor-pointer relative left-8'/>
                 <Link to={'/'} className='bold-24 mb-10'>
-                <h4 className='text-secondary'>Bookstore</h4>
+                <h4 className='text-secondary'>Bestore</h4>
                 </Link>
                 </>
             )}

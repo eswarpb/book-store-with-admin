@@ -5,6 +5,7 @@ import { categories } from "../assets/data";
 import Title from "../components/Title";
 import Item from "../components/Item";
 import { ShopContext } from "../context/ShopContext";
+import Footer from "../components/Footer"
 
 const Shop = () => {
   const { books } = useContext(ShopContext);
@@ -139,6 +140,7 @@ const Shop = () => {
              <button disabled={currentPage===totalPages} onClick={()=>setCurrentPage((prev)=>prev+1)} className={`btn-secondary !py-1 !px-3 ${currentPage===totalPages&&"opacity-50 cursor-not-allowed"}`}>Next</button>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 };
