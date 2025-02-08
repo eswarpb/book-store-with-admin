@@ -16,7 +16,7 @@ const About = () => {
                     </div>
                     <div>
                     <h4 className='medium-18'>Easy Returns Process</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat possimus consectetur fuga quis delectus?</p>
+                    <p>Customers can quickly request returns or refunds with a hassle-free process.</p>
                     </div>
                 </div>
                 <div className='flexCenter gap-x-4'>
@@ -25,7 +25,7 @@ const About = () => {
                     </div>
                     <div>
                     <h4 className='medium-18'>Secure Payment Options</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat possimus consectetur fuga quis delectus?</p>
+                    <p>Multiple payment gateways (Credit/Debit,paylink) with encrypted transactions.</p>
                     </div>
                 </div>
                 <div className='flexCenter gap-x-4'>
@@ -34,7 +34,7 @@ const About = () => {
                     </div>
                     <div>
                     <h4 className='medium-18'>Live Customer Support</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat possimus consectetur fuga quis delectus?</p>
+                    <p>24/7 chat, email, or phone support for instant assistance.</p>
                     </div>
                 </div>
                 

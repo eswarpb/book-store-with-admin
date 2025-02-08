@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='mb-4'>
       <div className='rounded-tr-3xl rounded-tl-3xl pt-12 xl:pt-20 pb-8'>
         <h3 className='h3'>Discover books that ignite your imagination</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ducimus iste?</p>
+        <p>"Unlock Worlds of Wonder with Every Page" ✨📖?</p>
         <hr className='my-8 bg-slate-900/30 h-[2px]' />
         {/* container */}
         <div className='flex justify-between flex-wrap gap-2
