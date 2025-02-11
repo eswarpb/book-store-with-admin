@@ -42,11 +42,11 @@ const Login = ({setToken}) => {
             </div>
             <div className='w-full'>
               <label htmlFor="email" className='medium-15'>Email</label>
-              <input onChange={(e)=>setEmail(e.target.value)} value={email} type='email' placeholder='Email' className='w-full px-3 py-1 ring-1 ring-slate-900/10 rounded bg-primary mt-1'/>
+              <input onChange={(e)=>setEmail(e.target.value)} value={email} type='email' placeholder='admin@bestore.com' className='w-full px-3 py-1 ring-1 ring-slate-900/10 rounded bg-primary mt-1'/>
             </div>
             <div className='w-full'>
               <label htmlFor='password' className='medium-15'>Password</label>
-              <input onChange={(e)=>setPassword(e.target.value)} value={password} type='password' placeholder='Password' className='w-full px-3 py-1 ring-1 ring-slate-900/10 rounded bg-primary mt-1'/>
+              <input onChange={(e)=>setPassword(e.target.value)} value={password} type='password' placeholder='admin123' className='w-full px-3 py-1 ring-1 ring-slate-900/10 rounded bg-primary mt-1'/>
             </div>
             <button type='submit' className='btn-dark w-full mt-5 !py-[7px] !rounded'>Login</button>
           </form>
